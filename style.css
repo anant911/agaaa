@@ -1,0 +1,15 @@
+#button1:hover{
+    background-color:orangered;
+}
+
+canvas{
+    background-color: plum;
+    animation-name: bob;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bob{
+    from {box-shadow:1px 1px 500px cyan;}
+    to {box-shadow:1px 1px 500px limegreen;}
+}
